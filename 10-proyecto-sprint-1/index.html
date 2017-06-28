@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Proyecto Final - Sprint 1</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Registro de Estudiantes</a>
+            </div>
+        </nav><br>
+        <section class="container">
+            <div class="row">
+                <div class="col s2 offset-s1">
+                    <button id="agregar" class="btn-large">Agregar</button>
+                </div>
+                <div class="col s2">
+                    <button id="mostrar" class="btn-large">Mostrar</button>
+                </div>
+                <div class="col s2">
+                    <button id="buscar" class="btn-large">Buscar</button>
+                </div>
+                <div class="col s2">
+                    <button id="top-tecnico" class="btn-large">Técnico</button>
+                </div>
+                <div class="col s2">
+                    <button id="top-hse" class="btn-large">Top HSE</button>
+                </div>
+            </div>
+        </section>
+        <section id="resultado">
+            <h4>Resultado</h4>
+            <div id="contenedor-estudiantes"></div>
+        </section>
+        <script src="js/vendor/dont-look-at-me.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
